@@ -1,0 +1,24 @@
+.singleDayForecastComponent {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.temperature {
+    font-size: 20px;
+}
+
+.date {
+    font-size: 16px;
+}
+
+.temperature, .date {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+@media (min-width:600px) {
+    .singleDayForecastComponent {
+        gap: 60px;
+    }
+}

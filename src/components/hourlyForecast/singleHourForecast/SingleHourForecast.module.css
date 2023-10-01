@@ -1,0 +1,44 @@
+.singleHourForecastComponent {
+    background-color: #373636;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0;
+    border-radius: 30px;
+}
+
+.hour {
+    font-size: 24px;
+}
+
+.tempAndSpeed {
+    font-size: 20px;
+}
+
+.hour, .tempAndSpeed {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.biggerIcon{
+    height: 80px;
+}
+
+@media (min-width:600px) {
+    .singleHourForecastComponent{
+        width: 45%;
+        max-width: 200px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width:1400px) {
+    .singleHourForecastComponent{
+        width: 130px;
+        height: 270px;
+        padding: 0;
+        justify-content: space-evenly;
+    }
+}

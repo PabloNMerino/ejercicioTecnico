@@ -1,0 +1,34 @@
+.feature {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.value {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.value, .title {
+    color: #FFFFFF;
+}
+
+@media (min-width: 600px) {
+    .feature {
+        width: 25%;
+    }
+}
+
+@media (min-width: 850px) {
+    .feature {
+        width: 50%;
+    }
+}
