@@ -1,5 +1,5 @@
 
-Ejercicio Tecnico con barra de busqueda funcional, consumiendo API's para obtener datos de meteorologia y hora internacional.
+Ejercicio Tecnico desarrollado con React con barra de busqueda funcional, consumiendo API's para obtener datos de meteorologia y hora internacional.
 El mismo es tambien responsive hasta 350px para poder ser usado en los distintos dispositivos.
 
 NOTA: La barra de busqueda solo recibe nombres de ciudades en ingles.
