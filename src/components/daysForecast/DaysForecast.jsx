@@ -1,5 +1,5 @@
 import Styles from './DaysForecast.module.css'
-import SingleDayForecast from './singleDayForecast/singleDayForecast'
+import SingleDayForecast from './singleDayForecast/SingleDayForecast'
 import { useContext, useState } from 'react'
 import { WeatherContext } from '../../context/weatherContext'
 
